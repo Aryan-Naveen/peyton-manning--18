@@ -24,6 +24,14 @@
   background-color: #132344;
 }
 
+.manning-jokes-body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../img/background-career-timeline.jpg");
+  background-color: #132344;
+}
+
 header {
 
 }
@@ -92,7 +100,7 @@ font-size: 40px;
 }
 
 h2 {
-  color: #000000;
+  color: #ffffff;
   font-family: 'Play', bold;
   text-align: left;
   font-size: 40px;
@@ -121,13 +129,18 @@ p {
   font-size: 35px;
   background-color:rgba(255,140,0,0.5);
 }
+.bold{
+  font-family:'Play',bold;
+}
 
 blockquote {
 
 }
 
 ol {
-
+  color: #ffffff;
+  font-family: 'Play', bold;
+  font-size: 30px;
 }
 
 ul {
@@ -139,8 +152,17 @@ li {
   font-family: 'Play', bold;
   font-size: 20px;
 }
-.margin{
+.margin-left{
     margin-left: 100px;
+}
+.margin-little-left{
+    margin-left: 20px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 table {
@@ -185,4 +207,54 @@ a:hover {
 
 a:active {
 
+}
+
+div.surprise {
+  background-image: url('../img/ski-mask.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  position:fixed;
+  bottom: -750px;
+  right: -750px;
+  width: 800px;
+  height: 800px;
+  transition: bottom 2s, right 2s;
+}
+
+div.surprise:hover {
+  bottom: 0;
+  right: 0;
+}
+
+img.arrow {
+  opacity: 0.5;
+  transition: opacity 2s;
+}
+
+div.surprise:hover img.arrow {
+  opacity: 0.0;
+}
+
+@media (max-width:500px){
+  h1 {
+  color: #ff6600;
+  font-family: 'Play', bold;
+  text-align: left;
+  font-size: 30px;
+  }
+
+  h2 {
+    color: #ffffff;
+    font-family: 'Play', bold;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  p {
+    color: #ffffff;
+    font-family: 'Play';
+    text-align: left;
+    font-size: 25px;
+    background-color:rgba(255,140,0,0.5);
+  }
 }
