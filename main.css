@@ -24,6 +24,8 @@
   background-color: #132344;
 }
 
+
+
 header {
 
 }
@@ -89,13 +91,15 @@ color: #ff6600;
 font-family: 'Play', bold;
 text-align: left;
 font-size: 40px;
+line-height: 100px;
 }
 
 h2 {
   color: #ffffff;
-  font-family: 'Play', bold;
+  font-family: 'Play';
   text-align: left;
-  font-size: 40px;
+  font-size: 35px;
+  background-color:rgba(255,140,0,0.5);
   text-decoration: underline;
 }
 
@@ -139,10 +143,12 @@ li {
   font-family: 'Play', bold;
   font-size: 20px;
 }
-.margin{
+.margin-left{
     margin-left: 100px;
 }
-
+.margin-top{
+    margin-left: 400px;
+}
 table {
 
 }
@@ -188,7 +194,8 @@ a:hover {
 a:active {
 
 }
-@media(max-width: 600px){
+
+@media(max-width: 1000000px){
   h1 {
 color: #ff6600;
 font-family: 'Play', bold;
